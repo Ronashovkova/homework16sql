@@ -1,0 +1,2 @@
+alter table profiles_table rename to profiles;
+select * from profiles order by department, skill;
