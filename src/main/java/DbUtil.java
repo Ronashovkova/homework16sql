@@ -67,6 +67,9 @@ public class DbUtil {
                         rs.getString("job_title"), rs.getString("department"),
                         rs.getString("company"), rs.getString("skill"));
             }
+            else {
+                System.err.println("Please, checkout your tables.");
+            }
             tables.add(querier);
         }
         return tables;
